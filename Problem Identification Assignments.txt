@@ -21,7 +21,7 @@ Answer:
 4) if an employee rates more than two of the below category with 3 or less than 3 then he will be quitting job soon          - High Chance
                        
 
-4) ProjectRating || TeamRating || ReportingManagerRating  ||  CompanyRating ||  Job Satisfication  || Monetary Growth           Output
+   ProjectRating || TeamRating || ReportingManagerRating  ||  CompanyRating ||  Job Satisfication  || Monetary Growth           Output
    3                      4                   2                         4               3               3                       Likely
    
    2                      4                   4                         3               2               3                       More Likely
