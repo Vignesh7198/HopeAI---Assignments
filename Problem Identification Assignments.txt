@@ -7,7 +7,7 @@ Answer:
       1) Machine learning
       2) Supervised learning
       3) Classification
-C) Name the project   
+C) Name the project    
 Answer:
       Employee Attrition Prediction
 
