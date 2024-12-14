@@ -1,0 +1,8 @@
+#Classification Matrix - Questions
+
+1)Accuracy - What is the overall performance of the model
+2)Precision - What is the Correct classification of a class to both correctly classified and wrongly classified as that class.
+3)Recall - What is the correct classfication of a class to all the inputs as that class.
+4)F1 Score - What is the balanced classification of your classes (We can check this if there is a big difference between recall and precision)
+5)Weighted Average - Considering input numbers of each class, what is the average model performance?
+6)Macro Average - What is the Average model performance?
