@@ -1,0 +1,108 @@
+# Confusion Matrix for Random Forest:
+  TP   FN
+[[73    6]   #0
+ [ 4   37]]  #1
+  FP   TN
+
+
+#Recall for class 0:
+        0 identified as 0 = 73 (True Positive)
+        0 identified as 1 = 6 (False Negative)
+
+        Recall =  True Positive / (True Positive + False Negative)
+
+        Recall = 73/(73+6) 
+        Recall = 0.92405
+
+#Precision for class 0:
+        0 identified as 0 = 73 (True Positive)
+        1 identified as 0 = 4  (False Positive)
+
+        Precision = True Positive / (True Positive + False Positive)
+
+        Precision = 73/(73+4)
+        Precision = 0.9480
+
+#F1 for class 0:
+
+        F1 Score = 2*(Recall*Precision)/(Recall+Precision)
+                 = 2*(0.92405*0.9480)/(0.92405+0.9480)
+                 = 0.9358
+                  
+
+#Recall for class 1:
+        1 identified as 1 = 37 (True Negative)
+        1 identified as 0 = 4  (False Positive)
+
+        Recall =  True Negative / (True Negative + False Positive)
+
+        Recall = 37/(37+4) 
+        Recall = 0.9024
+
+#Precision for class 1:
+        1 identified as 1 = 37 (True Negative)
+        0 identified as 1 = 6  (False Negative)
+
+        Precision = True Negative / (True Negative + False Negative)
+
+        Precision = 37/(37+6)
+        Precision = 0.8604
+
+#F1 for class 1:
+
+        F1 Score = 2*(Recall*Precision)/(Recall+Precision)
+                 = 2*(0.9024*0.8604)/(0.9024+0.8604)
+        F1 Score = 0.8808
+
+#Accuracy:
+
+Accuracy = TP+TN / (TP + FN + FP + TN)
+         = 73+37 / (73+6+4+37)
+Accuracy = 0.9166
+
+#Weighted Average:
+
+Weighted Avg for Precision = Class 0 Precision*(Number of Class 0 Inputs/Total Inputs) + Class 1 Precision*(Number of Class 1 Inputs/Total Inputs)
+                           = (0.9480*(79/120))+(0.8604*(41/120))
+                           = 0.6241 + 0.2939
+                           = 0.91807
+
+Weighted Avg for Recall    = Class 0 Recall*(Number of Class 0 Inputs/Total Inputs) + Class 1 Recall*(Number of Class 1 Inputs/Total Inputs)
+                           = (0.92405*(79/120))+(0.9024*(41/120))
+                           = 0.6083 + 0.3083
+                           = 0.91662
+
+Weighted Avg for F1 Score  = Class 0 F1*(Number of Class 0 Inputs/Total Inputs) + Class 1 F1*(Number of Class 1 Inputs/Total Inputs)
+                           = (0.9358*(79/120))+(0.8808*(41/120))
+                           = 0.6160 + 0.3009
+                           = 0.91694
+
+#Macro Average:
+
+Macro Average for Precision = (Precision of class 0 + Precision of class 1) / 2
+                            = (0.9480+0.8604)/2
+                            = 0.9042
+
+Macro Average for Recall = (Recall of class 0 + Recall of class 1) / 2
+                         = (0.92405+0.9024)/2
+                         = 0.9132
+
+Macro Average for F1 = (F1 of class 0 + F1 of class 1) / 2
+                         = (0.9358+0.8808)/2
+                         = 0.9083
+
+
+
+Above Calculations Matches the model output
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.92      0.94        79
+           1       0.86      0.90      0.88        41
+
+    accuracy                           0.92       120
+   macro avg       0.90      0.91      0.91       120
+weighted avg       0.92      0.92      0.92       120
+
+
+        
