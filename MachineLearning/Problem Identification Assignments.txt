@@ -1,0 +1,37 @@
+A) How will you achieve this in AI?
+Answer: 
+      We can use the employee Rating's to predict which employee plans to quit the company in a near term.
+
+B) Find out the 3 -Stage of Problem Identification
+Answer:
+      1) Machine learning
+      2) Supervised learning
+      3) Classification
+C) Name the project   
+Answer:
+      Employee Attrition Prediction
+
+D) Create the dummy Dataset:
+Answer:
+      Output is Classified by 4 Labeled / Target Data and Input is numerical with 1 as least satisfactory and 5 as most satisfictory
+
+1) if an employee rates all the below category as 3 or more than 3 then he/she will be less likely planning to quit the job - Less Likely
+2) if an employee rates any one of the below category with less than 3 then he/she  will Likely be planning to quit the job - Likely
+3) if an employee rates any two of the below category with less than 3 then he/she will more likely planning to quit the job - More Likely
+4) if an employee rates more than two of the below category with 3 or less than 3 then he will be quitting job soon          - High Chance
+                       
+
+4) ProjectRating || TeamRating || ReportingManagerRating  ||  CompanyRating ||  Job Satisfication  || Monetary Growth           Output
+   3                      4                   2                         4               3               3                       Likely
+   
+   2                      4                   4                         3               2               3                       More Likely
+   
+   4                      4                   4                         4               4               3                       Less Likely
+   
+   4                      3                   4                         5               3               3                       Less Likely
+   
+   2                      2                   3                         3               2               1                       High Chance
+   
+   2                      3                   3                         3               3               2                       More Likely
+
+   
