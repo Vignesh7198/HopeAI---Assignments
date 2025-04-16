@@ -1,0 +1,15 @@
+1. Age_23-26
+2. Gender_Male
+3. University_Dhaka University (DU)
+3. University_Dhaka University of Engineering and Technology (DUET)
+3. University_Independent University, Bangladesh (IUB)
+3. University_Islamic University of Technology (IUT)
+3. University_North South University (NSU)
+4. Department_Business and Entrepreneurship Studies
+4. Department_Engineering - CS / CSE / CSC / Similar to CS
+4. Department_Other
+5. Academic Year_Fourth Year or Equivalent
+5. Academic Year_Other
+5. Academic Year_Second Year or Equivalent
+5. Academic Year_Third Year or Equivalent
+7. Did you receive a waiver or scholarship at your university?_Yes
