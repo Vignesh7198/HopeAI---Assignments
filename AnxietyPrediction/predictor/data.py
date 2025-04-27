@@ -1,4 +1,4 @@
-title = "Attrition Prediction"
+title = "Anxiety Prediction"
 fields = ["1. Age","2. Gender","3. University","4. Department","5. Academic Year","6. Current CGPA","7. Did you receive a waiver or scholarship at your university?"]
 categories= {
         "1. Age": ["<select>","18-22","23-26","27-30","Above 30","Below 18"],
